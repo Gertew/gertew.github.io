@@ -9,4 +9,4 @@ plugins:   [jekyll-sitemap, jekyll-feed,  jekyll-seo-tag]
 
 title:		   "William Nguyen Portfolio"
 description: "Powered by Jekyll and GitHub Pages"
-author:      "William Nguyen
+author:      "William Nguyen"
