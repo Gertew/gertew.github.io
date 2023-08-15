@@ -6,7 +6,7 @@ permalink: /about
 
 # About Me
 
-<div style="overflow: hidden;">
+<div style="overflow: hidden; padding-bottom:25px;">
     <img src="/assets/img/WilliamNguyen.jpg" style="float: left; height: 500px; padding-right: 25px;">
 
     <div>
@@ -15,29 +15,30 @@ permalink: /about
 </div>
 
 <div>
-    <div style="display: inline-block">
-        <h2 style="display: inline; padding-right:25px;">C++</h2>
+    <h1>Proficiencies</h1>
+    <div style="margin: 15px; padding: 10px;">
+        <h4 style="display: inline; padding-right:25px;">C++</h4>
         <div style="display: inherit">
             <p style="display: inline">🔳🔳🔳🔳🔳🔳🔳⬜️⬜️⬜️</p>
             <h3 style="display: inline">Comfortable</h3>
         </div>
     </div>
-    <div style="display: inline-block">
-        <h2 style="display: inline; padding-right:25px;">C#</h2>
+    <div style="margin: 15px; padding: 10px;">
+        <h4 style="display: inline; padding-right:25px;">C#</h4>
         <div style="display: inherit">
             <p style="display: inline">🔳🔳🔳🔳🔳🔳🔳⬜️⬜️⬜️</p>
             <h3 style="display: inline">Comfortable</h3>
         </div>
     </div>
-    <div style="display: inline-block">
-        <h2 style="display: inline; padding-right:25px;">Java</h2>
+    <div style="margin: 15px; padding: 10px;">
+        <h4 style="display: inline; padding-right:25px;">Java</h2>
         <div style="display: inherit">
             <p style="display: inline">🔳🔳🔳🔳🔳🔳🔳⬜️⬜️⬜️</p>
             <h3 style="display: inline">Intermediate</h3>
         </div>
     </div>
-    <div style="display: inline-block">
-        <h2 style="display: inline; padding-right:25px;">Unreal Engine</h2>
+    <div style="margin: 15px; padding: 10px;">
+        <h4 style="display: inline; padding-right:25px;">Unreal Engine</h4>
         <div style="display: inherit">
             <p style="display: inline">🔳🔳🔳🔳🔳🔳🔳⬜️⬜️⬜️</p>
             <h3 style="display: inline">Comfortable</h3>
@@ -50,4 +51,8 @@ permalink: /about
             <h3 style="display: inline">Intermediate</h3>
         </div>
     </div>
+</div>
+
+<div>
+    <h1>Skills</h1>
 </div>
