@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 'Project Three'
+title: 'Tank Wars'
 ---
 
-Donec condimentum a leo nec posuere. Vestibulum faucibus leo nec nisl varius vestibulum. Aenean vel quam semper, vestibulum augue at, rutrum ligula. Ut gravida, ex sit amet fringilla luctus, lorem quam mollis elit, et tristique leo urna non odio. Curabitur elementum viverra consequat. Vestibulum vitae dolor tristique, pellentesque metus non, suscipit nunc. Aenean id sem eu libero sodales dignissim eget quis quam. Phasellus quis lectus ac odio convallis luctus. Praesent sed ligula ipsum. Nullam ultricies nunc nec turpis porttitor elementum. Vestibulum vitae imperdiet elit, nec mattis magna. Vestibulum id neque nec turpis ullamcorper rutrum ac non ligula. Quisque nec pellentesque diam. Vestibulum at aliquam mi, vitae fringilla quam. Suspendisse potenti.
+Tank Wars was a multiplayer game made in Spring of 2021 in the University of Utah's Software Practice I course (CS 3500). This project is a simple top down free for all multiplayer game where each player controls a tank and gets points by exploding other player tanks. This project was meant to teach students the Server Client model and where we as students implemented the Model View Controller (MVC) architecture in order to achieve this. This project was in teams of 2. I was the main programmer that implemented most of the server sided logic where we abided by the Server Authoritative model. The Server is the one who controls the actual game world (Model). Clients (View) would be rendering the information that the Server would send to each client. Clients could request actions (Controller) to be done like shooting a projectile and moving. The Server was going to need to handle concurrency well as many players could join and there would be many race conditions. This was problem was solved by using mutex locks on critical sections of the game world.
 
-{% include image.html url="http://www.gratisography.com" image="projects/proj-3/clothes.jpg" %}
+{% include image.html url="http://www.gratisography.com" image="projects/proj-3/TankWars_Splash.png" %}
