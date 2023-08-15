@@ -3,6 +3,6 @@ layout: post
 title: 'Slash'
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porta tortor eros, et cursus diam feugiat eu. Mauris euismod volutpat leo porttitor congue. Curabitur quis purus dignissim, sagittis enim non, interdum enim. Sed vitae nibh sed ante luctus finibus. In fermentum arcu eget volutpat blandit. Nullam leo magna, luctus ac consequat ut, ultrices quis quam. Nullam orci magna, tincidunt consequat arcu vel, facilisis hendrerit lectus. Mauris dapibus, lorem et tincidunt bibendum, massa ipsum consectetur elit, at venenatis nulla nulla id ante.
+Slash is an Unreal Engine 5 project from an online course (UE5 Ultimate C++) where I learned a lot about how to use C++ with Unreal Engine. This is a solo project course and the main mechanic of the project is melee combat. Gameplay mechanics like swinging a sword and having it hit things as well as animation canceling between attacks/moves. A key takeaway from this course was that there is a lot of documentation on how to use the engine and there are many things already done by Epic in order to make lives of developers easier.
 
 {% include image.html url="http://www.gratisography.com" image="projects/proj-5/gun-pants.jpg" %}

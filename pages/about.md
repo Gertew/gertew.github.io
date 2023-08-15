@@ -44,7 +44,7 @@ permalink: /about
             <h3 style="display: inline">Comfortable</h3>
         </div>
     </div>
-    <div  style="margin: 15px; padding: 10px;">
+    <div style="margin: 15px; padding: 10px;">
         <h4 style="display: inline; padding-right:25px;">GLSL</h4>
         <div style="display: inherit">
             <p style="display: inline">🔳🔳🔳🔳🔳⬜️⬜️⬜️⬜️⬜️</p>
