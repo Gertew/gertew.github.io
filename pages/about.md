@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page2
 title: About
 permalink: /about
 ---
@@ -18,29 +18,36 @@ permalink: /about
     <div style="display: inline-block">
         <h2 style="display: inline; padding-right:25px;">C++</h2>
         <div style="display: inherit">
-            <p>++++++++</p>
-            <h3>Comfortable</h3>
+            <p style="display: inline">🔳🔳🔳🔳🔳🔳🔳⬜️⬜️⬜️</p>
+            <h3 style="display: inline">Comfortable</h3>
         </div>
     </div>
-        <div style="display: inline-block">
+    <div style="display: inline-block">
         <h2 style="display: inline; padding-right:25px;">C#</h2>
         <div style="display: inherit">
-            <p>++++++++</p>
-            <h3>Comfortable</h3>
+            <p style="display: inline">🔳🔳🔳🔳🔳🔳🔳⬜️⬜️⬜️</p>
+            <h3 style="display: inline">Comfortable</h3>
         </div>
     </div>
-        <div style="display: inline-block">
+    <div style="display: inline-block">
         <h2 style="display: inline; padding-right:25px;">Java</h2>
         <div style="display: inherit">
-            <p>++++++++</p>
-            <h3>Intermediate</h3>
+            <p style="display: inline">🔳🔳🔳🔳🔳🔳🔳⬜️⬜️⬜️</p>
+            <h3 style="display: inline">Intermediate</h3>
+        </div>
+    </div>
+    <div style="display: inline-block">
+        <h2 style="display: inline; padding-right:25px;">Unreal Engine</h2>
+        <div style="display: inherit">
+            <p style="display: inline">🔳🔳🔳🔳🔳🔳🔳⬜️⬜️⬜️</p>
+            <h3 style="display: inline">Comfortable</h3>
         </div>
     </div>
         <div style="display: inline-block">
-        <h2 style="display: inline; padding-right:25px;">Unreal Engine</h2>
+        <h2 style="display: inline; padding-right:25px;">GLSL</h2>
         <div style="display: inherit">
-            <p>++++++++</p>
-            <h3>Comfortable</h3>
+            <p style="display: inline">🔳🔳🔳🔳🔳🔳🔳⬜️⬜️⬜️</p>
+            <h3 style="display: inline">Intermediate</h3>
         </div>
     </div>
 </div>
