@@ -7,4 +7,4 @@ Save the Animals was made in the Summer of 2023 in the University of Utah's Alte
 
 Initial Prototype
 
-{% include image.html url="http://www.gratisography.com" image="projects/proj-2/SaveTheAnimals_Splash.png" %}
+{% include image.html url="http://www.gratisography.com" image="projects/savetheanimals/SaveTheAnimals_Splash.png" %}

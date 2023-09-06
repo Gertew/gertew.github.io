@@ -6,4 +6,4 @@ Goom was made in the Spring of 2023 in the University of Utah's Traditional Game
 
 Initial Prototype
 
-{% include image.html url="https://ninjakgames.itch.io/goom" image="projects/proj-1/Goom_Splash.png" %}
+{% include image.html url="https://ninjakgames.itch.io/goom" image="projects/goom/Goom_Splash.png" %}

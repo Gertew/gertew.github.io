@@ -7,4 +7,4 @@ Tank Wars was a multiplayer game made in Spring of 2021 in the University of Uta
 
 Initial Prototype
 
-{% include image.html url="../downloads/TankWars.zip" image="projects/proj-3/TankWars_Splash.png" %}
+{% include image.html url="../downloads/TankWars.zip" image="projects/tankwars/TankWars_Splash.png" %}
