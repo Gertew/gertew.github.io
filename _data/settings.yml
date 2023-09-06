@@ -10,11 +10,10 @@ menu:
 # Projects Section
 
 projects:
-- {name: 'Goom',   url: 'proj-1'}
-- {name: 'SaveTheAnimals',   url: 'proj-2'}
-- {name: 'TankWars', url: 'proj-3'}
-- {name: 'Blaster',  url: 'proj-4'}
-- {name: 'Slash',  url: 'proj-5'}
+- {name: 'Goom',   url: 'Goom'}
+- {name: 'SaveTheAnimals',   url: 'SaveTheAnimals'}
+- {name: 'TankWars', url: 'TankWars'}
+- {name: 'Blaster',  url: 'Blaster'}
 
 #-------------------------------
 # Contact Section
