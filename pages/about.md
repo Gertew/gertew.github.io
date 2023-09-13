@@ -31,6 +31,13 @@ permalink: /about
         </div>
     </div>
     <div style="margin: 15px; padding: 10px;">
+        <h4 style="display: inline; padding-right:25px;">Python</h4>
+        <div style="display: inherit">
+            <p style="display: inline">🔳🔳🔳🔳🔳🔳⬜️⬜️⬜️⬜️</p>
+            <h3 style="display: inline">Intermediate</h3>
+        </div>
+    </div>
+    <div style="margin: 15px; padding: 10px;">
         <h4 style="display: inline; padding-right:25px;">Java</h4>
         <div style="display: inherit">
             <p style="display: inline">🔳🔳🔳🔳🔳🔳⬜️⬜️⬜️⬜️</p>
