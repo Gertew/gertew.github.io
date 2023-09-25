@@ -54,7 +54,7 @@ In my actual implementation, I used a recursive function to get all enemies arou
 #### Puzzles
 Puzzles were going to be a key element of our game and the sense of puzzle solving and exploration something we needed to have working as much as the combat aspects. Not only that but we also wanted to have our elemental system to be integrated with the puzzles as well. I created a Puzzle Interaction Component that handled Activation and Deactivation of the Triggers.
 
-{% include image_no_url.html image="projects/Goom/Goom_Interact_Component.png" %}
+{% include image_no_url.html image="projects/goom/Goom_Interact_Component.png" %}
 
 ### Elemental Puzzles
 {% include video.html video="projects/goom/Goom_Elemental_Puzzle.mp4" %}
