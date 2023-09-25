@@ -3,16 +3,16 @@ layout: post
 title: 'Save The Animals'
 ---
 
-Save the Animals was made in the Summer of 2023 in the University of Utah's Alternative Game Development course (EAE 3720). The game was made with the intent to try to bring awareness towards animal testing where you play as a lab tested rat that has gained super powers as a result. The team consisted of 9 team members. I worked on this game as the lead gameplay/UI programmer. I implemented the modular ability system and each individual ability, physics interactions, puzzle mechanics, main menu/pause/HUD UI, and enemy AI. This game was solely implemented using Unreal Engine's Blueprints due to the time constraint of the Summer semester in order to quickly iterate on the game mechanics.
+Save the Animals was made in the Summer of 2023 in the University of Utah's Alternative Game Development course (EAE 3720). The game was made with the intent to try to bring awareness towards animal testing where you play as a lab tested rat that has gained super powers as a result. The team consisted of 9 team members. I worked on this game as the lead gameplay/UI programmer. I implemented the modular ability system and each individual ability, physics interactions, puzzle mechanics, main menu/pause/HUD UI, and some enemy AI. This game was solely implemented using Unreal Engine's Blueprints due to the time constraint of the Summer semester in order to quickly iterate on the game mechanics.
 
 {% include image.html url="http://www.gratisography.com" image="projects/savetheanimals/SaveTheAnimals_Splash.png" %}
 
-## Superpowered Rat Abilities
+### Superpowered Rat Abilities
 In the original game pitch, the pitch mentioned that the rat character has been tested on and gained super powers but as a group we weren't sure what kinds of powers we wanted. Eventually through some ideation and voting we landed on powers that were more sci-fi and go help with the puzzle solving.
 
 The first power we all agreed on that the rat should have was telekinesis and being able to manipulate objects with its mind and all other powers would be built with this concept in mind.
 
-### Telekinesis Implementation
+#### Telekinesis Implementation
 {% include video.html video="projects/savetheanimals/STA_Telekinesis_Prototype.mp4" %}
 The initial implementation used Unreal Engine's Physics Handler which works for the most part in terms being able to move a physics simulating object around but it did not behave in a way that we wanted. One reason being that moving it around using the Physics Handler means that its velocity is dictated by how fast you move the camera. In scenarios where the player would rapidly flip the camera and let go of the object it would send it flying which was a fun idea that we later revisited to properly support but we didn't like it functioning like this.
 
@@ -20,7 +20,7 @@ In order to solve this, I needed to find a way to reduce the force from the Phys
 
 {% include image_no_url.html image="projects/savetheanimals/STA_Telekinesis_InterpolateSpeed.png" %}
 
-### Other Abilities
+#### Other Abilities
 I knew that we wanted multiple abilties and a way to easily switch to between acquired abilties that I need to implement the abilties in a way that allowed for reuse of similar functionality and could be added dynamically. I ended up creating a Base Ability class that was an Actor Component that could added to the player during gameplay.
 
 {% include image_no_url.html image="projects/savetheanimals/STA_Base_Ability.png" %}
@@ -35,9 +35,9 @@ By having to calculate the final value, each ability would need to specify what 
 
 {% include image_no_url.html image="projects/savetheanimals/STA_Ability_CurveTable.png" %}
 
-## Telekinesis + Breakable Objects
+### Telekinesis + Breakable Objects
 {% include video.html video="projects/savetheanimals/STA_Breakable_Physics_Objects.mp4" %}
-The game was a stealth game and we wanted ways to distract the scientists. The primary ability we wanted the player to always be using was Telekinesis. Using the Physics Handler grabbing an object simulating physics was no problem but grabbing a fractured mesh that was created using Unreal's Chaos Destruction not so easy. Due to limitations with how the Physics Handler manipulates objects by directly interacting with a root physics bone, a GeometryCollection did not have this. This was a really challenging problem. There are many ways I consider to solve this problem. 
+The game was a stealth game and we wanted ways to distract the scientists. The primary ability we wanted the player to always be using was Telekinesis. Using the Physics Handler grabbing an object simulating physics was no problem but grabbing a fractured mesh that was created using Unreal's Chaos Destruction not so easy. Due to limitations with how the Physics Handler manipulates objects by directly interacting with a root physics bone, a GeometryCollection did not have this. This was a really challenging problem. There are many ways I considered to solve this problem. 
 
 {% include image_no_url.html image="projects/savetheanimals/STA_Breakable_Base.png" %}
 
@@ -45,11 +45,11 @@ One being was that I could use the GeometryCollection as a way to fracture and s
 
 {% include image_no_url.html image="projects/savetheanimals/STA_Physics_Object.png" %}
 
-## Scientist Captured Sequence
+### Scientist Captured Sequence
 {% include video.html video="projects/savetheanimals/STA_Captured_Initial.mp4" %}
 {% include video.html video="projects/savetheanimals/STA_Captured_Working.mp4" %}
 Another idea designers on the project came up with was that animals squirm and what if our player could squirm when captured allowing for a chance to escape. I took what they had described and put a Box Collision on the Scientist's hand and would activate its collision when the grab animation was played. From there I could attach whatever they grabbed to their hand. If it was the player then I could start a timer to countdown. If the player doesn't escape before the timer stops then they are to be captured and put back in their cage.
 
 It worked initially but there wasn't any real sense of danger and accomplishment when being grabbed as you could just mash and escape everytime. In order to make the capture sequence more dramatic and tense, I created a Level Sequence that was set around the Scientist and animated the camera getting closer to the scientist. I created a UMG Widget that would display a circle each time you press the struggle button and with each press it would also shake the screen. My team really liked what I had done with the presentation of the sequence but still felt like even with this you could always mash the struggle button. I solved this by keeping track of how many times the player had been captured. Due to my prior research into CurveTables from the abilities, I applied the same thinking here where the number of captures will evaluate the curve and get the corresponding required amount of struggle attempts. This was easily adjustable by designers to their liking.
-{% include video.html video="projects/savetheanimals/STA_Captured_Polished_Captured.mp4" %}
+{% include video.html video="projects/savetheanimals/STA_Captured_Polished_Capture.mp4" %}
 {% include video.html video="projects/savetheanimals/STA_Captured_Polished_Free.mp4" %}
