@@ -3,7 +3,7 @@
 
 menu:
 - {name: 'Projects', url: ''}
-- {name: 'Resume', url: 'https://drive.google.com/file/d/1841ztFEeW0p9WkRt8uKApAg6TKRELpWO/view?usp=sharing'}
+- {name: 'Resume', url: 'resume'}
 - {name: 'About',    url: 'about'}
 - {name: 'Contact',  url: 'contact'}
 
