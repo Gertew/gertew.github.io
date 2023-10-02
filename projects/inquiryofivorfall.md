@@ -9,4 +9,4 @@ Inquiry of Ivorfall is a EAE Capstone project at the University of Utah for the 
 
 For the prototype, I was tasked with creating player mechanics. Things like shooting the gun, equipping weapon mods, twinstick controls, and worked with VFX and SFX artists to implement their work onto these mechanics.
 
-{% include image.html url="https://drive.google.com/file/d/1wzAMU_GvxPgW8HV4SfApDXnZxomK6l_M/view?usp=drive_link" image="projects/blaster/Blaster_Splash.png" %}
+{% include image.html url="https://drive.google.com/file/d/1wzAMU_GvxPgW8HV4SfApDXnZxomK6l_M/view?usp=drive_link" image="projects/inquiryofivorfall/InquiryOfIvorfall_Splash.png" %}

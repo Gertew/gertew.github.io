@@ -13,8 +13,10 @@ menu:
 projects:
 - {name: 'Goom',   url: 'goom'}
 - {name: 'SaveTheAnimals',   url: 'savetheanimals'}
+- {name: 'InquiryOfIvorfall',  url: 'inquiryofivorfall'}
 - {name: 'TankWars', url: 'tankwars'}
 - {name: 'Blaster',  url: 'blaster'}
+
 
 #-------------------------------
 # Contact Section
