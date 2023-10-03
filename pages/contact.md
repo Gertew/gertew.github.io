@@ -6,4 +6,4 @@ permalink: /contact
 
 # Contact
 
-Email: nguyenwilliam24@gmail.com
+Email: <a href = "mailto: nguyenwilliam24@gmail.com">nguyenwilliam24@gmail.com</a>
