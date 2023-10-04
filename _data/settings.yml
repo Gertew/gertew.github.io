@@ -10,11 +10,11 @@ menu:
 # Projects Section
 
 projects:
-- {name: 'Goom',   url: 'goom'}
-- {name: 'SaveTheAnimals',   url: 'savetheanimals'}
-- {name: 'InquiryOfIvorfall',  url: 'inquiryofivorfall'}
-- {name: 'TankWars', url: 'tankwars'}
-- {name: 'Blaster',  url: 'blaster'}
+- {name: 'Goom', role: 'Lead Gameplay Engineer', url: 'goom'}
+- {name: 'SaveTheAnimals', role: 'Lead Gameplay Engineer', url: 'savetheanimals'}
+- {name: 'InquiryOfIvorfall', role: 'Gameplay Engineer', url: 'inquiryofivorfall'}
+- {name: 'TankWars', role: 'Engineer' url: 'tankwars'}
+- {name: 'Blaster', role: 'Engineer', url: 'blaster'}
 
 
 #-------------------------------
