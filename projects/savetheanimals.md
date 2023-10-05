@@ -3,9 +3,9 @@ layout: post
 title: 'Save The Animals'
 ---
 
-## Role - Lead Gameplay/UI Programmer (Team of 9)
-## Engine/Platform - Unreal Engine 5 (Windows)
-## Practiced Skills - Blueprints, Agile Development, Interdisciplinary Teamwork
+### Role - Lead Gameplay/UI Programmer (Team of 9)
+### Engine/Platform - Unreal Engine 5 (Windows)
+### Practiced Skills - Blueprints, Agile Development, Interdisciplinary Teamwork
 
 {% include youtube.html url="https://drive.google.com/file/d/1b0OMne9uc0og10-bX1XfIWRHfr1qkr4m/preview" %}
 

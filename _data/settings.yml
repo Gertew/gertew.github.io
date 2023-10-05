@@ -12,7 +12,7 @@ menu:
 projects:
 - {name: 'Goom', role: 'Lead Gameplay Engineer', url: 'goom'}
 - {name: 'SaveTheAnimals', role: 'Lead Gameplay Engineer', url: 'savetheanimals'}
-- {name: 'InquiryOfIvorfall', role: 'Gameplay Engineer', url: 'inquiryofivorfall'}
+- {name: 'InquiryOfIvorfall', role: 'Lead Gameplay Engineer', url: 'inquiryofivorfall'}
 - {name: 'TankWars', role: 'Engineer', url: 'tankwars'}
 - {name: 'Blaster', role: 'Engineer', url: 'blaster'}
 

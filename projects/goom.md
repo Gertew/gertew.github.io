@@ -3,9 +3,9 @@ layout: post
 title: 'Goom'
 ---
 
-## Role - Lead Gameplay Programmer (Team of 7)
-## Engine/Platform - Unreal Engine 5 (Windows)
-## Practiced Skills - Blueprints, Interdisciplinary Teamwork, Saving Games
+### Role - Lead Gameplay Programmer (Team of 7)
+### Engine/Platform - Unreal Engine 5 (Windows)
+### Practiced Skills - Blueprints, Interdisciplinary Teamwork, Saving Games
 
 {% include youtube.html url="https://www.youtube.com/embed/U32NmC4CM8k" %}
 
