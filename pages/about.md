@@ -87,21 +87,24 @@ permalink: /about
         <h4 style="display: inline; padding-right:25px;">Documentation Practice</h4>
         <div style="display: inherit">
             <p style="display: inline">🔳🔳🔳🔳🔳🔳🔳⬜️⬜️⬜️</p>
-            <h5 style="display: block">Proficient in takes videos/pictures of Work in progress and sharing them. Commenting code and choosing descriptive names</h5>
+            <h5 style="display: inline">Proficient</h5>
         </div>
+        <h4 style="display: block; padding-right:25px;">I record video and take pictures of my work in progress in order to get feedback from my teammates. I try to comment sections of code stating their purpose.</h4>
     </div>
     <div style="margin: 15px; padding: 10px;">
         <h4 style="display: inline; padding-right:25px;">Team Leadership</h4>
         <div style="display: inherit">
             <p style="display: inline">🔳🔳🔳🔳🔳🔳⬜️⬜️⬜️⬜️</p>
-            <h5 style="display: block">Comfortable as I have taken delegate tasks to other teammembers</h5>
+            <h5 style="display: inline">Comfortable</h5>
         </div>
+        <h4 style="display: block; padding-right:25px;">I have taken charge on my team for multiple projects and delegated tasks to other teammates in order to keep production moving.</h4>
     </div>
     <div style="margin: 15px; padding: 10px;">
         <h4 style="display: inline; padding-right:25px;">Maya/Blender</h4>
         <div style="display: inherit">
             <p style="display: inline">🔳🔳🔳🔳⬜️⬜️⬜️⬜️⬜️⬜️</p>
-            <h5 style="display: block">Familiar with the asset pipeline process</h5>
+            <h5 style="display: inline">Familiar</h5>
         </div>
+        <h4 style="display: block; padding-right:25px;">I know that models are created in 3D softwares and textures/materials are created using digital content creation tools like Photoshop/Substance Painter before they are brought into the game engine.</h4>
     </div>
 </div>
