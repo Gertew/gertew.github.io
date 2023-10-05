@@ -2,6 +2,11 @@
 layout: post
 title: 'Goom'
 ---
+
+## Role - Lead Gameplay Programmer (Team of 7)
+## Engine/Platform - Unreal Engine 5 (Windows)
+## Practiced Skills - Blueprints, Interdisciplinary Teamwork, Saving Games
+
 {% include youtube.html url="https://www.youtube.com/embed/U32NmC4CM8k" %}
 
 Goom was made in the Spring of 2023 in the University of Utah's Traditional Game Development course (EAE 3710). This game is a Isometric slime game that drew inspiration from games like: Tunic, Death's Door, and The Legend of Zelda: The Wind Waker. There were 7 team members and 2 addition outside helpers. I worked on this game as the lead programmer for the gameplay aspects. On this game, things I implemented were: the projectile shooting mechanic, elemental interactions, player ability system, logic puzzle states, enemy combat, and blending between cinematics and gameplay. All of these were implemented using Blueprints due to the majority of the team being new to Unreal Engine at the time.
@@ -9,6 +14,7 @@ Goom was made in the Spring of 2023 in the University of Utah's Traditional Game
 {% include image.html url="https://ninjakgames.itch.io/goom" image="projects/goom/Goom_Splash.png" %}
 
 #### Elemental Slime Abilties
+I was most proud of this system that I was able to build that not only interacted with combat but also with puzzles. A big part of it was to due the designers on my team laying the foundation and allowing for me to build on top of it. Each element has a combat and puzzle solving purpose. This duality allowed for designers on the team to flex their puzzle brain.
 In the original pitch, the pitch was titled Slime Sunlight. During the pitching process, the vision holder was asked a question about how sunlight/light interacted with the main slime character. The vision holder said they thought it would be cool if different colors of light would affect of the slime played. Once I had joined the team, I thought this was a cool mechanic and was challenging at the time due to my inexperience with making games.
 
 How I initially approached the abilities was that I used an Enum to list all possible elemental states the slime could be in. In final game we ended up with Fire, Water, Electric, and Slime where Slime would be the base/default state while all of the other ones would be acquired through exploration and puzzles. Once I had defined the Elemental State Enum, everything else was to switch on this state and define behavior/logic that dealt with each case. Designers on the project wanted each and every element to feel unique and powerful. I also worked closely with the VFX artist and UI designer to help implement their visuals with the corresponding gameplay elements.

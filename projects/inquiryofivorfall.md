@@ -3,9 +3,13 @@ layout: post
 title: 'Inquiry of Ivorfall'
 ---
 
+## Role - Lead Gameplay Programmer (Team of 13)
+## Engine/Platform - Unreal Engine 5 (Windows)
+## Practiced Skills - Communication, Rapid Prototype/Ideation, Interdisciplinary Teamwork
+
 {% include youtube.html url="https://drive.google.com/file/d/1agWnFlMo954uTNUArOCsGdJzpVaD03xh/preview" %}
 
-Inquiry of Ivorfall is a EAE Capstone project at the University of Utah for the year 2023-2024. Inquiry of Ivorfall is a topdown isometric twinstick shooter where you play as a trigger happy detective trying to solve a mystery set in a steampunk city. The gameplay is inspired by games like Hades, RUINER, and Doom. This is a prototype that was made in 2 weeks with a team of 13 in order to demonstrate the capabilities of both the team and prove the game's concept to an industry panel. The panel of judges alongside the professors voted on which 8 of 16 prototypes would be greenlit for full production for the rest of the semester. This project was greenlit to begin full production in which the team's size is expected to double.
+Inquiry of Ivorfall is a EAE Capstone project at the University of Utah for the year 2023-2024. Inquiry of Ivorfall is a topdown isometric twinstick shooter where you play as a trigger happy detective trying to solve a mystery set in a steampunk city. The gameplay is inspired by games like Hades, RUINER, and Doom. This is a prototype that was made in 2 weeks with a team of 13 in order to demonstrate the capabilities of both the team and prove the game's concept to an industry panel. The panel of judges alongside the professors voted on which 8 of 16 prototypes would be greenlit for full production for the rest of the semester. This project was greenlit to begin full production in which the team's size is expected to double. I was overburden with joy when I found out that the project was greenlit. I really enjoyed prototyping the gameplay for this project. We were so tight on time and I ended up taking many shortcuts. I am planning on fixing and properly implementing the mechanics in order to be more robust and versatile.
 
 {% include image.html url="https://drive.google.com/file/d/1wzAMU_GvxPgW8HV4SfApDXnZxomK6l_M/view?usp=drive_link" image="projects/inquiryofivorfall/InquiryOfIvorfall_Splash.png" %}
 
