@@ -25,11 +25,11 @@ h1, h2, h3, h4, h5, h6
   line-height: 1.38
 
 .big, h4
-  font-size: 22px
+  font-size: 18px
   line-height: 1.38
 
 .medium, h5
-  font-size: 16px
+  font-size: 14px
   line-height: 1.38
 
 .small, small
@@ -109,6 +109,12 @@ h3
   padding: 100px 0 30px
 
 h5
+  @extend %small-bold
+  color: $accent-light
+  text-align: center
+  padding: 25px 0 25px
+
+h4
   @extend %small-bold
   color: $accent-light
   text-align: center
