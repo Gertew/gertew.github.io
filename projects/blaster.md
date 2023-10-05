@@ -3,9 +3,11 @@ layout: post
 title: 'Blaster'
 ---
 
+<div style="display: inline">
 ### Role - Solo Developer
 ### Engine/Platform - Unreal Engine 5 (Windows)
 ### Practiced Skills - C++, Multiplayer Programming, Server/Client Architecture
+</div>
 
 Blaster is an Unreal Engine 5 project from an online course (UE5 Multiplayer Shooter) where I am learning how to create a fully online networked 3rd person multiplayer shooter. This is a solo project course. The project is implemented in C++ and uses Blueprints to easily modify variables on assets derived from their C++ class. The project features 3 game modes: Free For All, Team Deathmatch, and Capture The Flag. I was so happy when me and friend were able to playtest the game over the internet. For the majority of the course, I did a lot of local testing but when my friend was able to join as a remote play tester it was magically. Even then it still wasn't perfect, we were able to fix many bugs due to there not being enough latency between the server and clients.
 

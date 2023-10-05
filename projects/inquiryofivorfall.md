@@ -3,9 +3,11 @@ layout: post
 title: 'Inquiry of Ivorfall'
 ---
 
+<div style="display: inline">
 ### Role - Lead Gameplay Programmer (Team of 13)
 ### Engine/Platform - Unreal Engine 5 (Windows)
 ### Practiced Skills - Communication, Rapid Prototype/Ideation, Interdisciplinary Teamwork
+</div>
 
 {% include youtube.html url="https://drive.google.com/file/d/1agWnFlMo954uTNUArOCsGdJzpVaD03xh/preview" %}
 
