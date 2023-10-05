@@ -87,21 +87,21 @@ permalink: /about
         <h4 style="display: inline; padding-right:25px;">Documentation Practice</h4>
         <div style="display: inherit">
             <p style="display: inline">🔳🔳🔳🔳🔳🔳🔳⬜️⬜️⬜️</p>
-            <h4 style="display: block">Proficient in takes videos/pictures of Work in progress and sharing them. Commenting code and choosing descriptive names</h3>
+            <h5 style="display: block">Proficient in takes videos/pictures of Work in progress and sharing them. Commenting code and choosing descriptive names</h5>
         </div>
     </div>
     <div style="margin: 15px; padding: 10px;">
         <h4 style="display: inline; padding-right:25px;">Team Leadership</h4>
         <div style="display: inherit">
             <p style="display: inline">🔳🔳🔳🔳🔳🔳⬜️⬜️⬜️⬜️</p>
-            <h4 style="display: block">Comfortable as I have taken delegate tasks to other teammembers</h3>
+            <h5 style="display: block">Comfortable as I have taken delegate tasks to other teammembers</h5>
         </div>
     </div>
     <div style="margin: 15px; padding: 10px;">
         <h4 style="display: inline; padding-right:25px;">Maya/Blender</h4>
         <div style="display: inherit">
             <p style="display: inline">🔳🔳🔳🔳⬜️⬜️⬜️⬜️⬜️⬜️</p>
-            <h4 style="display: block">Familiar with the asset pipeline process</h3>
+            <h5 style="display: block">Familiar with the asset pipeline process</h5>
         </div>
     </div>
 </div>
