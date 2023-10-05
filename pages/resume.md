@@ -6,6 +6,6 @@ permalink: /resume
 
 # Resume
 
-<div style="margin: auto;">
+<div style="max-width:50%;">
 <iframe src="https://drive.google.com/file/d/1841ztFEeW0p9WkRt8uKApAg6TKRELpWO/preview" width="1280" height="1280" allow="autoplay"></iframe>
 </div>
