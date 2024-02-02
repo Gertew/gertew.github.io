@@ -7,7 +7,7 @@ title: 'Inquiry of Ivorfall'
 ##### Engine/Platform - Unreal Engine 5 (Windows)
 ##### Practiced Skills - Communication, Rapid Prototype/Ideation, Interdisciplinary Teamwork
 
-{% include youtube.html url="https://www.youtube.com/watch?v=Ho0r55uKdIg" %}
+{% include youtube.html url="https://www.youtube.com/embed/Ho0r55uKdIg" %}
 
 Ivorfall is a EAE Capstone project at the University of Utah for the year 2023-2024. Ivorfall is a isometric twinstick roguelike shooter where you play as a trigger happy detective trying to solve a mystery set in a steampunk city. The gameplay is inspired by games like Hades, RUINER, and Doom. The prototype that was made in 2 weeks with a team of 13 in order to demonstrate the capabilities of both the team and prove the game's concept to the professors and an industry panel. This was 1 of 16 prototypes where only 8 of them would be greenlit for full production for the rest of the school year. Upon being greenlit for begin full production, the team's size doubled to 26.
 

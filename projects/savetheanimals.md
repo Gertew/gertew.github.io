@@ -7,11 +7,11 @@ title: 'Save The Animals'
 ##### Engine/Platform - Unreal Engine 5 (Windows)
 ##### Practiced Skills - Blueprints, Agile Development, Interdisciplinary Teamwork
 
-{% include youtube.html url="https://drive.google.com/file/d/1b0OMne9uc0og10-bX1XfIWRHfr1qkr4m/preview" %}
+{% include youtube.html url="https://www.youtube.com/embed/OHUtGD_k9CE" %}
 
 Save the Animals was made in the Summer of 2023 in the University of Utah's Alternative Game Development course (EAE 3720). The game was made with the intent to try to bring awareness towards animal testing where you play as a lab tested rat that has gained superpowers as a result. The team consisted of 9 team members. I worked on this game as the lead gameplay/UI programmer. I implemented the modular ability system and each individual ability, physics interactions, puzzle mechanics, main menu/pause/HUD UI, and some enemy AI. This game was solely implemented using Unreal Engine's Blueprints due to the time constraint of the Summer semester in order to quickly iterate on the game mechanics. My biggest accomplishment on this project was how I was able to polish the physics interactions within the game. The game ultimately became fun to play when this happened as enemies no longer seemed overwhelming and puzzle interactions were more intuitive.
 
-{% include image.html url="https://drive.google.com/file/d/1pjd8kevdcZt1AQuG_YUvOz5A-Q2rzovz/view?usp=sharing" image="projects/savetheanimals/SaveTheAnimals_Splash.png" %}
+{% include image.html url="https://harryujin.itch.io/save-the-animals" image="projects/savetheanimals/SaveTheAnimals_Splash.png" %}
 
 #### Superpowered Rat Abilities
 In the original game pitch, the pitch mentioned that the rat character has been tested on and gained superpowers but as a group we weren't sure what kinds of powers we wanted. Eventually through some ideation and voting we landed on powers that were more sci-fi and helped with the puzzle solving.
