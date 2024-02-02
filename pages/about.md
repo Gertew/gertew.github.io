@@ -87,7 +87,7 @@ permalink: /about
     <div style="margin: 15px; padding: 10px;">
         <h4 style="display: inline; padding-right:25px;">Documentation Practice</h4>
         <div style="display: inherit">
-            <p style="display: inline">🔳🔳🔳🔳🔳🔳🔳⬜️⬜️⬜️</p>
+            <p style="display: inline">🔳🔳🔳🔳🔳🔳🔳🔳⬜️⬜️</p>
             <h5 style="display: inline">Proficient</h5>
         </div>
         <h4 style="display: block; padding-right:25px;">When writing code it should be written in such a way that others can comprehend what is going on. I try to abide by this rule and when I cannot I will place comments on what it is doing. While it is necessary to be writing good code, it is very helpful to have visual representation of the code in action. I will record video and take pictures of my code running in order to get feedback from my teammates to see if I am heading in the right direction.</h4>
@@ -98,7 +98,7 @@ permalink: /about
             <p style="display: inline">🔳🔳🔳🔳🔳🔳⬜️⬜️⬜️⬜️</p>
             <h5 style="display: inline">Comfortable</h5>
         </div>
-        <h4 style="display: block; padding-right:25px;">I have taken charge on several projects where I delegated tasks to other teammates in order to keep production moving. Beside delegation, I have also collaborated closely with my teammates as well to help unblock them and work together on features for the game.</h4>
+        <h4 style="display: block; padding-right:25px;">I have becomed more relied upon by my teammates as they come to me with their problems and ask for my opinions and guidance on their ideas and thoughts for projects. While I am not the most outgoing person, I have taken accoutability on several projects especially on Ivorfall where I collaborated with other engineers on the high level implementation and met with them frequently on the lower level implementation of the code. </h4>
     </div>
     <div style="margin: 15px; padding: 10px;">
         <h4 style="display: inline; padding-right:25px;">Maya/Blender</h4>
