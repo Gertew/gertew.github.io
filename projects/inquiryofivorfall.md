@@ -37,4 +37,14 @@ Now for the more technical stuff. In the first couple of meetings with the entir
 
 In order to convert the mods from their generic state, I added way to identify the types of mods using an enumeration. Mods could either be a primary or secondary mod where a primary mod dictates how the changes the weapon's firing capabilities while a secondary mod changes the types of bullets/effects that would be applied. This resulted in not every mod can be combined with another mod. This helped scope down the number of possible combinations we would need to support where it becomes now only the cross product between primary and secondary instead of the number of mods squared.
 
-The previous system resulted in a monolithic base class that had every feature possible and not all the children would need some of these features. I went back and revised my implementation in order to better use inheritance to make sure that child classes were the one implementing and doing more unique stuff while the parent held any common functionality need between all of them. Mods and Projectiles are now separated where mods dictate their interactions with the weapon and choose which projectile or trace effect to be used. Projectiles define their own behavior but their damage is dictated by the mod.
+{% include image_no_url.html image="projects/inquiryofivorfall/InquiryOfIvorfall_Updated_Mod_Details.png" %}
+
+The previous system resulted in a monolithic base class that had every feature possible and not all the children would need some of these features. I went back and revised my implementation in order to better use inheritance to make sure that child classes were the one implementing and doing more unique stuff while the parent held any common functionality need between all of them. Mods and Projectiles are now separated where mods dictate their interactions with the weapon and choose which projectile or trace effect to be used. Projectiles define their own behavior on how they move in the world but their damage is dictated by the mod.
+
+{% include image_no_url.html image="projects/inquiryofivorfall/InquiryOfIvorfall_Updated_Projectile_Details.png" %}
+
+I was able to move a lot of the heavy Mod and Projectile logic out of Blueprints and into C++ which made the Blueprint Graph more readable and simplier for Designers to work with. As well as keeping core logic out of Designer's hands who could potentially break stuff by not properly plugging in things inside the Blueprint Editor. By making use of UFUNCTION and UPROPERTY macros to expose C++ functionality as need.
+
+{% include image_no_url.html image="projects/inquiryofivorfall/InquiryOfIvorfall_Mod_Header.png" %}
+
+{% include image_no_url.html image="projects/inquiryofivorfall/InquiryOfIvorfall_Projectile_Header.png" %}
