@@ -3,9 +3,9 @@ layout: post
 title: 'Inquiry of Ivorfall'
 ---
 
-##### Role - Lead Gameplay Programmer (Team of 13)
+##### Role - Lead Gameplay Programmer (Team of 26)
 ##### Engine/Platform - Unreal Engine 5 (Windows)
-##### Practiced Skills - Communication, Rapid Prototype/Ideation, Interdisciplinary Teamwork
+##### Practiced Skills - C++/Blueprint Workflow, Interdisciplinary Teamwork, Communication, Rapid Prototype/Ideation
 
 {% include youtube.html url="https://www.youtube.com/embed/Ho0r55uKdIg" %}
 
@@ -48,3 +48,19 @@ I was able to move a lot of the heavy Mod and Projectile logic out of Blueprints
 {% include image_no_url.html image="projects/inquiryofivorfall/InquiryOfIvorfall_Mod_Header.png" %}
 
 {% include image_no_url.html image="projects/inquiryofivorfall/InquiryOfIvorfall_Projectile_Header.png" %}
+
+Through the use of the Gameplay Ability System where Gameplay events are separated into 3 ideas: Gameplay Abilities, Gameplay Effects, and Gameplay Cues. The separation of concerns here allows Gameplay Abilities to trigger Gameplay Effects and Gameplay Cues allowing for multiple abilities to trigger the same effects and cues. This reusability and modularity of the system is what I am now using to handle Mod combinations.
+
+Each Mod combination has its own Gameplay Ability derived from a C++ base class that defines functionality to spawn projectiles, do collision traces, and apply forces/knockback that allows it to trigger its own unique effects and cues. Where the majority of Gameplay Abilities are created in Blueprints which then dictate the type of functionality and behavior that the Designers want.
+
+{% include image_no_url.html image="projects/inquiryofivorfall/InquiryOfIvorfall_WeaponFire_Header.png" %}
+
+Some combinations reuse the same effects like the Blunderbuss and Oil Combination which acts like a traditional flamethrower that has a damage over time effect which is reused by the Sniper and Oil Combination that launches a mortar grenade that explodes applying a damage over time effect to all enemies. The only difference between the two is the amount of damage dealt which boils down to a different number. For others it must just be that its spawning a different type of projectile.
+
+{% include image_no_url.html image="projects/inquiryofivorfall/InquiryOfIvorfall_WeaponFire_GameplayAbility.png" %}
+
+The powerfulness of this system allows for abilities to be defined in its own separate place and the mods just contain a map of other Mod types to Gameplay Abilities. The functionality is not directly tied to the mod and can be easily switched out without having to cut/delete many lines of code from the Mod object. It is also extremely Blueprint and Designer friendly by using ScalableFloats that have an underlying CurveTable. The CurveTable especially the linear type is very similar looking to a spreadsheet and Designers can adjust and balance numbers very easily by just changing those values and testing inside the editor.
+
+{% include image_no_url.html image="projects/inquiryofivorfall/InquiryOfIvorfall_ModDamage_Table.png" %}
+
+Another bonus of using Gameplay Abilities is that not only can the player use the Weapon Mods but so can the enemies. By separating the functionality into its own separate ability, I can either reuse the same ability if only numbers need to be different or make use of inheritance to create a different ability all while just specifying on the Mod which type of character is equipping the mod. This allowed our game initially from just having 1 type of enemy to having 6 additional ones, one for each Mod type. I have been closely collaborating with the engineer implementing the enemy AI and we were able to have the enemies behave different based on the Mod type as well.
