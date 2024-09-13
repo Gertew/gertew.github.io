@@ -7,7 +7,7 @@ permalink: /about
 # About Me
 
 <div style="overflow: hidden; padding-bottom:25px;">
-    <img src="/assets/img/WilliamNguyen.jpg" style="float: left; max-width:50%; padding-right: 25px;">
+    <img src="/assets/img/WilliamNguyen.jpg" style="float: left; max-width:50%; max-height:50%; padding-right: 25px;">
 
     <div>
         <h8 style="margin:25px;">I remember having a Nintendo DS and Playstation Portable. I played Pokemon Emerald all the time but couldn't complete the Pokedex. My 6 year old brain only knew to spam Surf and throw Ultra Balls in every battle so finding any of the hidden pokemon wasn't possible at the time. Looking back I realized that I had so much fun even though I wasn't even fully interacting with all the mechanics. A few years later I remember getting a Nintendo Wii for Christmas and playing Wii Sports using the motion controls. This was uncomprehensible for my 9 year old brain. I was no longer just simply pressing buttons. I was jumping and swinging my arms around in my living room while boxing which annoyed my parents. My parents began forcing me do my homework first before I could start playing afterschool. This really motivated me to get my homework done but at the same time made me daydream about the things I could try when I started playing again to see if they worked. Ever since then I wanted to play more games and figure out how they worked as my parents only allowed me to play "kid" games.</h8>
@@ -40,7 +40,7 @@ permalink: /about
         </div>
     </div>
     <div style="margin: 15px; padding: 10px;">
-        <h4 style="display: inline; padding-right:25px;">Java</h4>
+        <h4 style="display: inline; padding-right:25px;">SQL</h4>
         <div style="display: inherit">
             <p style="display: inline">🔳🔳🔳🔳🔳⬜️⬜️⬜️⬜️⬜️</p>
             <h3 style="display: inline">Intermediate</h3>
@@ -51,20 +51,6 @@ permalink: /about
         <div style="display: inherit">
             <p style="display: inline">🔳🔳🔳🔳🔳🔳🔳🔳⬜️⬜️</p>
             <h3 style="display: inline">Proficient</h3>
-        </div>
-    </div>
-    <div style="margin: 15px; padding: 10px;">
-        <h4 style="display: inline; padding-right:25px;">Unity</h4>
-        <div style="display: inherit">
-            <p style="display: inline">🔳🔳🔳🔳🔳🔳⬜️⬜️⬜️⬜️</p>
-            <h3 style="display: inline">Intermediate</h3>
-        </div>
-    </div>
-    <div style="margin: 15px; padding: 10px;">
-        <h4 style="display: inline; padding-right:25px;">GLSL</h4>
-        <div style="display: inherit">
-            <p style="display: inline">🔳🔳🔳🔳🔳⬜️⬜️⬜️⬜️⬜️</p>
-            <h3 style="display: inline">Intermediate</h3>
         </div>
     </div>
     <div style="margin: 15px; padding: 10px;">
