@@ -19,7 +19,7 @@ I was most proud of this system that I implemented with the help of my team. Des
 I initially approached the elements by using an enumeration to list all possible elemental states the slime could be in. In the final game, we ended up with Fire, Water, Electric, and Slime, with Slime being the base/default state and the other elements would be acquired through exploration and puzzles. Once I had defined the Elemental enumeration, the real work would begin on the actual abilities and implementing those.
 
 ### Slime Element
-<div style="display: inline-block;">
+<div style="display: flex;">
 {% include video.html video="projects/goom/Goom_Slime_Prototype.mp4" %}
 {% include video.html video="projects/goom/Goom_Slime_Final.mp4" %}
 </div>
@@ -28,7 +28,7 @@ The designer came up with the idea for the Slime element wanted it to be easy an
 Designers on my team wanted something else that the player could do in order to help sell the elemental mechanic. They proposed that each element should have a special ability/attack. This special ability would have a cooldown and be very powerful, synergizing with the element and primary attack. For the Slime element, the special would involve creating a clone that acts as a decoy, drawing enemy attention away from the player. My initial, naive approach was to spawn another character similar to the player. However, since it was a dummy it didn't need to move so making it inherit from the character class was unecessary so I had it inherit from the pawn class instead which was the minimum requirement to be recognized by the AI.
 
 ### Water Element
-<div style="display: inline-block;">
+<div style="display: flex;">
 {% include video.html video="projects/goom/Goom_Water_Prototype.mp4" %}
 {% include video.html video="projects/goom/Goom_Water_Final.mp4" %}
 </div>
@@ -39,14 +39,14 @@ For the water primary attack projectile, a designer was obessed with bubbles/wat
 Making the droplets stick to things proved to be complex at first. Studying the engine and its Entity-Component System design, it became clear to me that the entity being an actor has components that have their position updated based on the root. The droplet could be attached as a component to whatever it hit with its position being offset to stay in the same world position. By attaching it in this manner, its position and rotation would be updated if the source moved.
 
 ### Fire Element
-<div style="display: inline-block;">
+<div style="display: flex;">
 {% include video.html video="projects/goom/Goom_Fire_Prototype.mp4" %}
 {% include video.html video="projects/goom/Goom_Fire_Final.mp4" %}
 </div>
 Designers wanted the fire element to feel very powerful and slow, featuring big explosions and extensive area-of-effect damage. Once I had the water droplet explosion working, I reused the same code for the fire projectile. Instead of waiting for a callback for when to explode, I set it to explode upon collision. This was straightforward with the "Apply Radial Damage" blueprint node. Additionally, the designer wanted the special ability to funciton like a bomb with a fuse that leads to a massive explosion. I set up timer that starts when the projectile collides with something that would then trigger the explosion afterwards.
 
 ### Electric Element
-<div style="display: inline-block;">
+<div style="display: flex;">
 {% include video.html video="projects/goom/Goom_Electric_Prototype.mp4" %}
 {% include video.html video="projects/goom/Goom_Electric_Final.mp4" %}
 </div>
