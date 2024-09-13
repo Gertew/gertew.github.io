@@ -10,9 +10,9 @@ menu:
 # Projects Section
 
 projects:
-- {name: 'Project Eon', role: 'Gameplay Engineer', url: 'projecteon'}
-- {name: 'Ivorfall', role: 'Lead Gameplay Engineer', url: 'inquiryofivorfall'}
-- {name: 'Goom', role: 'Gameplay Engineer', url: 'goom'}
+- {name: 'Project Eon', role: 'Gameplay Programmer', url: 'projecteon'}
+- {name: 'Ivorfall', role: 'Lead Gameplay Programmer', url: 'inquiryofivorfall'}
+- {name: 'Goom', role: 'Gameplay Programmer', url: 'goom'}
 
 #-------------------------------
 # Contact Section
