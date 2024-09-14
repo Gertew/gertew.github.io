@@ -17,8 +17,7 @@ Ivorfall was originally known as Inquiry of Ivorfall and upon rebranding of the 
 
 For the prototype, I was tasked with creating player mechanics and getting the isometric twinstick to work. Things like shooting the gun, equipping weapon mods, twin-stick controls, and working with VFX and SFX artists to implement their work onto these mechanics. Initially everything was done in Blueprints in order to rapidly iterate on ideas and mechanics as this was primarily a proof of concept. An example of this was that I worked inside my own gymnasium level where I could test the mechanics independently of other teammates working inside the main prototype level.
 
-{% include video.html video="projects/inquiryofivorfall/InquiryOfIvorfall_WeaponMods_Initial.mp4" %}
-{% include video.html video="projects/inquiryofivorfall/InquiryOfIvorfall_WeaponMods_Final.mp4" %}
+{% include video_sbs.html video1="projects/inquiryofivorfall/InquiryOfIvorfall_WeaponMods_Initial.mp4" video2="projects/inquiryofivorfall/InquiryOfIvorfall_WeaponMods_Final.mp4" %}
 
 I had the weapon mod and shooting mechanics working very early on. Weapon mods would equip themselves to the weapon and cause the weapon to fire differently. For example, the bounce mod which fires a cog wheel bounces off walls has a unique projectile while the blunderbuss is a box trace in the forward direction from the weapon's firing tip. Each weapon mod has parameters that can allow for designers in the future to easily make new types the same can be said for the projectiles.
 
