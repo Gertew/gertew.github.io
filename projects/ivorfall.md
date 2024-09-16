@@ -5,7 +5,7 @@ title: 'Ivorfall'
 
 ##### Role - Lead Gameplay Programmer (Team of 26)
 ##### Engine/Platform - Unreal Engine 5 (Windows)
-##### Practiced Skills - C++/Blueprint Workflow, Interdisciplinary Teamwork, Communication, Development Cycle
+##### Practiced Skills - C++/Blueprint Workflow, Interdisciplinary Teamwork, Communication, Leadership, Agile Development
 
 {% include youtube.html url="https://www.youtube.com/embed/T3faHrBHFx8" %}
 

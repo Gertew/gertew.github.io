@@ -5,10 +5,9 @@ title: 'Project Eon'
 
 ##### Role - Gameplay Programmer (Team of 3)
 ##### Engine/Platform - Unreal Engine 5 (Windows)
-##### Practiced Skills - C++, Procedural Generation, Leadership, Rapid Prototype
+##### Practiced Skills - C++, Procedural Generation, Rapid Prototype
 
 {% include youtube.html url="https://drive.google.com/file/d/1PJIV-VF8WV4iy8LdJx8csiQeP1GuRdKH/preview" %}
-
 
 Project Eon is a Character Action Dungeon Crawler where the player picks a hero from a cast of characters ranging across time in order to save the universe. This project is inspired by games like League of Legends, Super Smash Bros, Hades, and Enter the Gungeon where it has unique Heroes, gameplay altering items, and a procedurally generated dungeon.
 
