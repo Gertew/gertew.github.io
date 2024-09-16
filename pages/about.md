@@ -1,8 +1,3 @@
----
-layout: about
-title: About
----
-
 # About Me
 
 <section>
