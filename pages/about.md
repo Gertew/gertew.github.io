@@ -4,7 +4,7 @@
   <img src="/assets/img/WilliamNguyen.jpg" style="float: left; max-width:30%; padding-right: 25px;">
   Hi, I'm William Nguyen, a gameplay programmer with a Bachelor's degree in Computer Science from the University of Utah, eager to break into the games industry.
 
-  I experience with **C++**, **C#**, **Python**, **Unreal Engine**, **Perforce**, and **Git**.
+  I have experience with **C++**, **C#**, **Python**, **Unreal Engine**, **Perforce**, and **Git**.
   
   I enjoy designing and implementing gameplay mechanics and abilities. I am particularly fond of character-based action games and like spending my time exploring how they are implemented, especially how they empower the player and fulfill the power fantasy.
 
