@@ -1,5 +1,5 @@
 ---
-layout: page2
+layout: about
 title: About
 ---
 
