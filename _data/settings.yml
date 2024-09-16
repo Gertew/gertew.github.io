@@ -11,7 +11,7 @@ menu:
 
 projects:
 - {name: 'Project Eon', role: 'Gameplay Programmer', url: 'projecteon'}
-- {name: 'Ivorfall', role: 'Lead Gameplay Programmer', url: 'inquiryofivorfall'}
+- {name: 'Ivorfall', role: 'Lead Gameplay Programmer', url: 'ivorfall'}
 - {name: 'Goom', role: 'Gameplay Programmer', url: 'goom'}
 
 #-------------------------------
