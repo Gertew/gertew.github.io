@@ -11,6 +11,12 @@ header
       color: rgba(0,0,0,1)
       &:hover
         color: $accent-color
+    .email
+      font-size: 18px
+      text-align: center
+      color: $accent
+      &:hover
+        color: lighten($accent, 40%)
   nav
     float: right
     margin: 30px 30px 0 0
@@ -37,10 +43,3 @@ header
         margin-right: 20px
         font:
           size: 16px
-
-.email
-  font-size: 18px
-  text-align: center
-  color: $accent
-  &:hover
-    color: lighten($accent, 40%)
