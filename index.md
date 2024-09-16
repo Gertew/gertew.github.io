@@ -3,4 +3,4 @@ layout: home
 title: Home
 ---
 
-{% include about.md %}
+{% include_relative pages/about.md %}
