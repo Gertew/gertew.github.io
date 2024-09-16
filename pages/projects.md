@@ -5,5 +5,4 @@ permalink: /projects
 ---
 
 # Projects
-
 {% include projects.html %}
